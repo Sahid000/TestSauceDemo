@@ -45,7 +45,7 @@ public class testsaucedemo {
         driver.findElement(By.xpath("//button[@id='react-burger-menu-btn']")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[@id='logout_sidebar_link']")).click();
-        Thread.sleep(2000);
+        Thread.sleep(5000);
     }
 
     @AfterTest
